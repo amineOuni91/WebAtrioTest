@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAtrioTest", "WebAtrioTest\WebAtrioTest.csproj", "{F22101EC-60F5-4011-AF68-51F941162B8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAtrioTest", "WebAtrioTest\WebAtrioTest.csproj", "{F22101EC-60F5-4011-AF68-51F941162B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAtrioTest.Test", "WebAtrioTest.Test\WebAtrioTest.Test.csproj", "{DAAC4D6A-6C60-4C19-9F8E-0570E8490AF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F22101EC-60F5-4011-AF68-51F941162B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22101EC-60F5-4011-AF68-51F941162B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22101EC-60F5-4011-AF68-51F941162B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAC4D6A-6C60-4C19-9F8E-0570E8490AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAC4D6A-6C60-4C19-9F8E-0570E8490AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAC4D6A-6C60-4C19-9F8E-0570E8490AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAC4D6A-6C60-4C19-9F8E-0570E8490AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
