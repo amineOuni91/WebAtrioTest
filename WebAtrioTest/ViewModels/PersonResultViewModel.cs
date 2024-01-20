@@ -9,6 +9,7 @@ public class PersonResultViewModel
     public string LastName { get; set; } = string.Empty;
     public DateTime BirthDate { get; set; }
     public List<JobResultViewModel> Jobs { get; set; } = [];
+    public int Age => (DateTime.Now.Year - BirthDate.Year) - 1;
 
     public static explicit operator PersonResultViewModel(Person person)
     {
